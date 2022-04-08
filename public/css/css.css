@@ -1,0 +1,11 @@
+#global {
+    border: 2px solid black;
+    width: 800px;
+    height: 457px;
+    background-image: url("{{ asset('/images/'.$info->photo) }}");
+    padding: 50px;
+}
+
+p {
+    margin-top: 10px;
+}
